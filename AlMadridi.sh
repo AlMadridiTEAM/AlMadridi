@@ -39,7 +39,7 @@ sudo luarocks install luautf8
 cd .. ;sudo rm -rf luarocks*
 sudo timedatectl set-timezone Asia/Baghdad
 cd $THIS_DIR && sudo chmod +x tg
-lua Madridi.lua
+lua AlMadridi.lua
 }
 if [ "$1" = "install" ]; then
 install
@@ -49,5 +49,5 @@ echo -e "\033[0;31m\n~ The tg File Was Not Found In The Bot Files\n\033[0;33m"
 exit 1
 fi
 cd $THIS_DIR && sudo chmod +x tg
-lua Madridi.lua
+lua AlMadridi.lua
 fi
